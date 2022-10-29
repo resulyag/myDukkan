@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react';
-import API_URL from '../../../manuelEnv';
 
 function useFetch(url) {
   const [data, setData] = useState([]);
